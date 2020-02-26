@@ -26,7 +26,7 @@ SECRET_KEY = 'j4-&88#++#=omiga&#iw)qqk6ipk#qm&7)8grd-0$)b0ia9b2&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['littleplanet.pythonanywhere.com']
 
 
 # Application definition
