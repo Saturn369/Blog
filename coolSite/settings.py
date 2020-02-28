@@ -26,8 +26,10 @@ SECRET_KEY = 'j4-&88#++#=omiga&#iw)qqk6ipk#qm&7)8grd-0$)b0ia9b2&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['littleplanet.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 # Application definition
 
@@ -118,5 +120,3 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
-
-STATIC_URL = '/static/'
