@@ -37,3 +37,10 @@ def post_detail(request, slug):
             "comment_form": comment_form,
         },
     )
+
+def fractals(request):
+    alright = 'yes'
+    context = {
+    'alright': alright
+    }
+    return render(request, 'fractal.html', context)
