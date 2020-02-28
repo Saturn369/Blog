@@ -34,6 +34,8 @@
     <!--/NavBar-->
     {% block sidebar %}
 
+    {% if not alright %}
+
     <style>
             .card{
                 box-shadow: 0 16px 48px #E3E7EB;
@@ -52,6 +54,8 @@
         </div>
     </div>
     </div>
+
+    {% endif %}
 
     {% endblock sidebar %}
 
